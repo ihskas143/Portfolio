@@ -1,0 +1,49 @@
+git status
+git add .
+git commit -m "Updated [specific changes, e.g., CRUD operations or UI improvements]"
+git pull origin main
+git push origin main
+
+
+
+Steps to Continue Updating Your Repository
+Open the Project Folder
+Open your project folder in VSCode where your Git repository is located.
+
+Check Git Status
+Run this command to check the status of your repository:
+
+bash
+Copy
+Edit
+git status
+Stage the Changes
+Add the files you’ve edited to the staging area:
+
+bash
+Copy
+Edit
+git add .
+Commit the Changes
+Commit your changes with a message describing what you updated:
+
+bash
+Copy
+Edit
+git commit -m "Your commit message here"
+Pull Changes (If Necessary)
+If there have been updates to the remote repository, pull those changes first to avoid conflicts:
+
+bash
+Copy
+Edit
+git pull origin main
+Resolve any conflicts if they arise, then continue.
+
+Push the Changes
+Push your committed changes to the GitHub repository:
+
+bash
+Copy
+Edit
+git push origin main
